@@ -10,7 +10,7 @@ const nextConfig = {
       { source: '/contactus.php', destination: '/contact', permanent: true },
       { source: '/contact.php', destination: '/contact', permanent: true },
       { source: '/certificate.php', destination: '/certificate', permanent: true },
-      { source: '/events.php', destination: '/applications', permanent: true },
+      { source: '/events.php', destination: '/events', permanent: true },
       { source: '/privacy-policy.php', destination: '/privacy-policy', permanent: true },
       // Keyword product .php legacy 301 redirects to clean SEO routes
       { source: '/heavy-duty-industrial-exhaust-fan.php', destination: '/heavy-duty-industrial-exhaust-fan', permanent: true },
