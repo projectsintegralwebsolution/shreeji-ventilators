@@ -9,28 +9,31 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
   const pathname = usePathname();
   const router = useRouter();
   const [authorized, setAuthorized] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
-  // If on login page, render children directly without admin chrome
+  useEffect(() => {
+    setMounted(true);
+    if (typeof window !== 'undefined') {
+      const token = localStorage.getItem('shreeji_admin_token');
+      if (pathname !== '/admin' && !token) {
+        router.push('/admin');
+      } else {
+        setAuthorized(true);
+      }
+    }
+  }, [pathname, router]);
+
+  // If on login page, render children directly without admin sidebar
   if (pathname === '/admin') {
     return <>{children}</>;
   }
 
-  useEffect(() => {
-    const token = localStorage.getItem('shreeji_admin_token');
-    if (!token) {
-      router.push('/admin');
-    } else {
-      setAuthorized(true);
-    }
-  }, [router]);
-
-  const handleLogout = () => {
-    localStorage.removeItem('shreeji_admin_token');
-    router.push('/admin');
-  };
-
-  if (!authorized) {
-    return <div className="min-h-screen bg-slate-900 flex items-center justify-center text-white text-sm">Loading admin console...</div>;
+  if (!mounted || !authorized) {
+    return (
+      <div className="min-h-screen bg-slate-900 flex items-center justify-center text-white text-sm" suppressHydrationWarning>
+        Loading admin console...
+      </div>
+    );
   }
 
   const navItems = [
@@ -41,9 +44,9 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
   ];
 
   return (
-    <div className="min-h-screen bg-slate-100 flex flex-col md:flex-row text-slate-800">
+    <div className="min-h-screen bg-slate-100 flex flex-col md:flex-row text-slate-800" suppressHydrationWarning>
       {/* Sidebar */}
-      <aside className="w-full md:w-64 bg-[#09261e] text-white flex flex-col justify-between shrink-0 shadow-xl">
+      <aside className="w-full md:w-64 bg-[#09261e] text-white flex flex-col justify-between shrink-0 shadow-xl" suppressHydrationWarning>
         <div>
           {/* Brand */}
           <div className="p-6 border-b border-emerald-950 flex items-center gap-3">
@@ -90,8 +93,11 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
             <span>View Live Website</span>
           </a>
           <button
-            onClick={handleLogout}
-            className="w-full flex items-center gap-2 px-3 py-2 rounded-lg text-red-400 hover:bg-red-500/10 hover:text-red-300 transition-colors"
+            onClick={() => {
+              localStorage.removeItem('shreeji_admin_token');
+              router.push('/admin');
+            }}
+            className="w-full flex items-center gap-2 px-3 py-2 rounded-lg text-red-400 hover:bg-red-500/10 hover:text-red-300 transition-colors cursor-pointer"
           >
             <LogOut className="w-4 h-4" />
             <span>Sign Out</span>
