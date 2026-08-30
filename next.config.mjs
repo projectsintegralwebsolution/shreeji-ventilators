@@ -2,6 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
+  webpack: (config) => {
+    return config;
+  },
   async redirects() {
     return [
       { source: '/index.php', destination: '/', permanent: true },
