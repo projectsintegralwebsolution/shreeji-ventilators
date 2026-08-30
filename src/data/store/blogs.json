@@ -1,0 +1,143 @@
+[
+  {
+    "id": "1788008749787",
+    "title": "456",
+    "slug": "456",
+    "excerpt": "dgsdgsdg",
+    "content": "dgdsgsd",
+    "category": "Technical Guides",
+    "tags": [
+      "Turbo Ventilator",
+      "Factory Ventilation",
+      "CFM Sizing"
+    ],
+    "author": "Rajesh Sharma",
+    "authorRole": "Senior Ventilation Engineer",
+    "publishedAt": "2026-08-29",
+    "updatedAt": "2026-08-29",
+    "readTime": "5 min read",
+    "featuredImage": "/images/products/exhaust-installation-1.jpg",
+    "metaTitle": "456",
+    "metaDescription": "dgsdgsdg",
+    "focusKeywords": [
+      "industrial ventilator",
+      "turbo ventilator CFM",
+      "shed cooling"
+    ],
+    "isPublished": true
+  },
+  {
+    "id": "1788008691443",
+    "title": "123",
+    "slug": "123",
+    "excerpt": "sfsafsafas",
+    "content": "sfsafasf",
+    "category": "Technical Guides321",
+    "tags": [
+      "Turbo Ventilator",
+      "Factory Ventilation",
+      "CFM Sizing"
+    ],
+    "author": "Rajesh Sharma",
+    "authorRole": "Senior Ventilation Engineer",
+    "publishedAt": "2026-08-29",
+    "updatedAt": "2026-08-29",
+    "readTime": "5 min read",
+    "featuredImage": "/images/products/exhaust-installation-1.jpg",
+    "metaTitle": "safasfas",
+    "metaDescription": "fasfas",
+    "focusKeywords": [
+      "industrial ventilator",
+      "turbo ventilator CFM",
+      "shed cooling222"
+    ],
+    "isPublished": true
+  },
+  {
+    "id": "1",
+    "title": "How to Calculate CFM Requirements for Factory Sheds & PEB Warehouses",
+    "slug": "how-to-calculate-cfm-for-factory-sheds",
+    "excerpt": "A practical engineering guide to calculating shed volume, selecting Air Changes Per Hour (ACPH), and determining the exact number of 21-inch vs 24-inch wind turbine ventilators needed.",
+    "content": "\n## Understanding Industrial Air Ventilation Requirements\n\nIn tropical climates across India—especially in manufacturing hubs like Mumbai, Pune, Ahmedabad, Surat, and Jaipur—temperatures beneath corrugated metal or asbestos factory roofs frequently exceed 48°C during peak summer months. \n\nWithout adequate thermal exhaust, this trapped heat creates a dense, oppressive \"heat blanket\" that directly degrades worker productivity, increases machinery breakdown frequency, and creates severe occupational safety concerns.\n\n### The Standard Industrial CFM Calculation Formula\n\nCalculating the ventilation required for an industrial shed follows international ASHRAE guidelines and IS design standards:\n\n$$\\text{Building Volume (Cu. Ft.)} = \\text{Length (ft)} \\times \\text{Width (ft)} \\times \\text{Average Height (ft)}$$\n\n$$\\text{Total Required CFM} = \\frac{\\text{Building Volume (Cu. Ft.)} \\times \\text{Design ACPH}}{60}$$\n\n$$\\text{Number of Ventilators Needed} = \\frac{\\text{Total Required CFM}}{\\text{Rated CFM of Selected Ventilator Model}}$$\n\n### Recommended Air Changes Per Hour (ACPH) by Industry:\n\n* **General Engineering & Assembly Units:** 12 - 15 ACPH\n* **Warehouses & Logistics Storage:** 8 - 10 ACPH\n* **Steel Foundries & Forging Plants:** 25 - 30 ACPH\n* **Boiler Rooms & DG Generator Sheds:** 20 - 25 ACPH\n* **Chemical & Pharmaceutical Plants:** 15 - 20 ACPH\n* **Textile & Dyeing Mills:** 15 - 18 ACPH\n\n### Real-World Example: Sizing a 10,000 Sq. Ft. Warehouse\n\nSuppose you manage a general engineering fabrication shed with dimensions:\n* Length: 150 Feet\n* Width: 70 Feet\n* Average Ridge Height: 22 Feet\n* Industry Type: Fabrication (15 ACPH)\n\n1. **Volume:** 150 × 70 × 22 = 231,000 Cu. Ft.\n2. **Total Required CFM:** (231,000 × 15) ÷ 60 = 57,750 CFM\n3. **Using Shreeji Simpovent 24\" Turbo Ventilator (Avg 2,400 CFM at 8-10 km/h wind):**\n   Units Required = 57,750 ÷ 2,400 ≈ 24 Units\n\nInstalling 24 units of 24\" Simpovent Wind Turbo Ventilators spaced evenly along the roof ridge line will completely evacuate the entire volume of hot air 15 times every hour without consuming any electricity.\n    ",
+    "category": "Engineering & Sizing",
+    "tags": [
+      "CFM Calculation",
+      "Warehouse Ventilation",
+      "Turbo Ventilators",
+      "ACPH Sizing"
+    ],
+    "author": "Rajesh Sharma",
+    "authorRole": "Senior Ventilation Engineer",
+    "publishedAt": "2025-01-15",
+    "updatedAt": "2025-01-15",
+    "readTime": "6 min read",
+    "featuredImage": "/images/products/exhaust-installation-1.jpg",
+    "metaTitle": "How to Calculate CFM Requirements for Factory Sheds | Sizing Guide",
+    "metaDescription": "Step-by-step engineering guide to calculating ventilation CFM, Air Changes Per Hour (ACPH), and exact wind turbine ventilator count for industrial sheds.",
+    "focusKeywords": [
+      "calculate CFM for factory shed",
+      "industrial ventilation calculation",
+      "turbo ventilator sizing formula",
+      "warehouse air change rate"
+    ],
+    "isPublished": true
+  },
+  {
+    "id": "2",
+    "title": "21-Inch vs 24-Inch Turbo Ventilators: A Comprehensive Comparison",
+    "slug": "21-inch-vs-24-inch-turbo-ventilator-comparison",
+    "excerpt": "Discover the technical differences between 21\" (530mm) and 24\" (610mm) throat diameter wind ventilators, including airflow capacities, blade counts, and ideal application areas.",
+    "content": "\n## Choosing Between 21\" and 24\" Roof Turbo Ventilators\n\nWhen planning an industrial roof ventilation project, one of the most frequent dilemmas faced by plant engineers and purchase managers is selecting between the **21-inch (530 mm)** and **24-inch (610 mm)** throat diameter models.\n\nBoth sizes operate on the same natural thermodynamic principles—harnessing wind velocity and thermal siphon chimney effect. However, their physical dimensions, blade counts, and volumetric air displacement differ significantly.\n\n### Technical Specification Comparison\n\n| Parameter | 21\" Turbo Ventilator (Compact) | 24\" Turbo Ventilator (Standard) |\n|---|---|---|\n| **Throat Diameter (Neck Dia)** | 21\" Inch (530 MM) | 24\" Inch (610 MM) |\n| **Rotor Outer Diameter** | 28\" Inch (710 MM) | 30\" - 32\" Inch (760 - 810 MM) |\n| **Number of Aerodynamic Vanes** | 36 Nos. Curved | 42 Nos. Curved |\n| **Blade Metallurgy (MOC)** | Hindalco Aluminium 8011 | Hindalco Aluminium 8011 |\n| **Average Exhaust Flow (8-10 km/h wind)** | 1,800 - 2,200 CFM | 2,400 - 3,200 CFM |\n| **Top Cover Size (SS 304)** | 450 MM | 510 MM |\n| **Best For** | Medium sheds, small godowns, residential complexes | Heavy industrial sheds, foundries, PEB warehouses |\n\n### Which Size Should You Choose?\n\n* **Choose 24\" (610mm) if:** Your shed has heavy heat-generating machinery (e.g. melting furnaces, plastic molding, boilers), large roof spans above 60 feet, or high ridge heights exceeding 20 feet. The 24\" model is the industrial benchmark across India.\n* **Choose 21\" (530mm) if:** You have a smaller workshop, mezzanine floor, packaging store room, or restricted roof space between existing skylight sheets.\n    ",
+    "category": "Product Comparisons",
+    "tags": [
+      "24 Inch Turbo Ventilator",
+      "21 Inch Ventilator",
+      "Industrial Ventilation",
+      "Simpovent"
+    ],
+    "author": "Anand Mehta",
+    "authorRole": "Technical Director",
+    "publishedAt": "2025-01-28",
+    "updatedAt": "2025-01-28",
+    "readTime": "5 min read",
+    "featuredImage": "/images/products/powerless-ventilator.jpg",
+    "metaTitle": "21 Inch vs 24 Inch Turbo Ventilators: Engineering Comparison",
+    "metaDescription": "Compare 21\" vs 24\" industrial roof turbo ventilators. Learn differences in throat diameter, CFM exhaust ratings, blade counts, and sizing guidelines.",
+    "focusKeywords": [
+      "21 inch vs 24 inch turbo ventilator",
+      "turbo ventilator throat size",
+      "industrial ventilator dimensions",
+      "Simpovent 24 inch"
+    ],
+    "isPublished": true
+  },
+  {
+    "id": "3",
+    "title": "Preventing Monsoon Roof Water Leakage in PEB Buildings with FRP Base Plates",
+    "slug": "preventing-monsoon-roof-leakage-with-frp-base-plates",
+    "excerpt": "How custom-molded Fiberglass Reinforced Plastic (FRP) and Polycarbonate base plates eliminate water ingress, storm capillary seepage, and rust in pre-engineered metal sheds.",
+    "content": "\n## The Challenge of Roof Penetrations During Indian Monsoons\n\nDuring intense monsoon rainstorms across Maharashtra, Gujarat, and coastal India, wind-driven rains exert heavy lateral pressure on industrial roofs. Improperly sealed ventilator cutouts or generic flat base plates are the #1 cause of roof leaks in PEB metal buildings.\n\nWater leaks can ruin stored corrugated boxes, damage sensitive electronics, and disrupt factory operations.\n\n### Why Custom Profiled FRP Base Plates are Essential\n\nUnlike makeshift sheet metal flashing that warps, rusts, and relies solely on silicone sealants, **Shreeji Simpovent FRP Base Plates** are compression-molded to match the exact crest and trough contours of your roofing profile:\n\n1. **Exact Profile Matching:** Custom molds matching Tata Bluescope, Kirby, JSW Colouron, Jindal, and Corrugated Asbestos profiles.\n2. **Capillary Water Dams:** Integrated raised vertical curbs (120mm to 150mm height) prevent rushing rain runoff from entering the ventilator throat.\n3. **UV & Chemical Resistance:** Virgin isopthalic resin with UV stabilizers prevents brittleness and cracking under harsh sun and acid rain.\n4. **Thermal Expansion Compatibility:** Flexible fiberglass composite expands and contracts at similar thermal coefficients as steel roofing sheets, preventing screw hole tears.\n    ",
+    "category": "Installation & Maintenance",
+    "tags": [
+      "FRP Base Plates",
+      "Roof Leakage Prevention",
+      "PEB Sheds",
+      "Monsoon Protection"
+    ],
+    "author": "Sunil Verma",
+    "authorRole": "Installation Lead",
+    "publishedAt": "2025-02-10",
+    "updatedAt": "2025-02-10",
+    "readTime": "4 min read",
+    "featuredImage": "/images/products/exhaust-installation-3.jpg",
+    "metaTitle": "Preventing Monsoon Roof Water Leakage in PEB Buildings | FRP Base Plates",
+    "metaDescription": "Learn how custom-molded FRP base plates prevent water leakage and storm damage around roof turbo ventilators in industrial PEB metal buildings.",
+    "focusKeywords": [
+      "FRP base plate for roof ventilator",
+      "stop roof leakage PEB shed",
+      "turbo ventilator installation base",
+      "Tata Bluescope FRP base plate"
+    ],
+    "isPublished": true
+  }
+]

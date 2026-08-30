@@ -1,0 +1,19 @@
+{
+  "companyName": "Shreeji Sales Corporation",
+  "brandName": "Simpovent™",
+  "primaryPhone": "+91 93202 93021",
+  "secondaryPhone": "+91 72628 60283",
+  "whatsappNumber": "917262860283",
+  "primaryEmail": "info@shreejiwind.com",
+  "salesEmail": "info@shreejiwindventilator.com",
+  "adminAlertEmail": "princekumarjha80@gmail.com",
+  "clientAlertEmail": "info@shreejiwind.com",
+  "factoryAddress": "Ground Flr, Building No-1, Gala No:- 11, Takdir Industrial Estate, Vasai East, Opposite Fiza Restaurant, Vasai Virar, Palghar, Maharashtra - 401208, India",
+  "workingHours": "Monday - Saturday: 8:30 AM - 7:30 PM",
+  "announcementBanner": "Direct Factory Supply & Pan-India Dispatch Available for All 21 Ventilator Models.",
+  "smtpHost": "smtp.gmail.com",
+  "smtpPort": 587,
+  "smtpUser": "",
+  "smtpPass": "",
+  "smtpSecure": false
+}
