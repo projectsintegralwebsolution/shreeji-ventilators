@@ -275,7 +275,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "1,800 - 3,100 CFM",
       "powerConsumption": "0 Watts"
     },
-    "image": "",
+    "image": "/images/products/roof-air-ventilators.jpg",
     "galleryImages": [
       "/images/products/roof-air-ventilator.jpg"
     ],
@@ -335,7 +335,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "2,000 - 3,200 CFM",
       "powerConsumption": "0 Watts"
     },
-    "image": "",
+    "image": "/images/products/turbo-air-ventilators.jpg",
     "galleryImages": [
       "/images/products/turbo-air-ventilator.jpg"
     ],
@@ -395,7 +395,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "1,900 - 3,200 CFM",
       "powerConsumption": "0 Watts"
     },
-    "image": "",
+    "image": "/images/products/wind-driven-ventilator.jpg",
     "galleryImages": [
       "/images/products/wind-driven-ventilator.jpg"
     ],
@@ -454,7 +454,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "2,000 - 3,200 CFM",
       "powerConsumption": "0 Watts"
     },
-    "image": "",
+    "image": "/images/products/wind-operate-ventilator.jpg",
     "galleryImages": [
       "/images/products/wind-operate-ventilator.jpg"
     ],
@@ -513,7 +513,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "1,800 - 3,000 CFM",
       "powerConsumption": "0 Watts"
     },
-    "image": "/images/products/real-blue-roof-hoods.jpg",
+    "image": "/images/products/natural-air-ventilator.jpg",
     "galleryImages": [
       "/images/products/natural-air-ventilator.jpg"
     ],
@@ -572,7 +572,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "2,000 - 3,200 CFM",
       "powerConsumption": "0 Watts"
     },
-    "image": "",
+    "image": "/images/products/roof-ventilator.jpg",
     "galleryImages": [
       "/images/products/roof-ventilator.jpg"
     ],
@@ -631,7 +631,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "2,000 - 3,200 CFM",
       "powerConsumption": "0 Watts"
     },
-    "image": "",
+    "image": "/images/products/turbine-ventilator.jpg",
     "galleryImages": [
       "/images/products/turbine-ventilator.jpg"
     ],
@@ -690,7 +690,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "2,000 - 3,200 CFM",
       "powerConsumption": "0 Watts"
     },
-    "image": "",
+    "image": "/images/products/wind-turbine-ventilator.jpg",
     "galleryImages": [
       "/images/products/wind-turbine-ventilator.jpg"
     ],
@@ -749,7 +749,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "1,800 - 3,200 CFM",
       "powerConsumption": "0 Watts (Zero Electricity)"
     },
-    "image": "",
+    "image": "/images/products/powerless-ventilators.jpg",
     "galleryImages": [
       "/images/products/powerless-ventilator.jpg"
     ],
@@ -807,7 +807,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "2,000 - 3,200 CFM",
       "powerConsumption": "0 Watts"
     },
-    "image": "/images/products/real-interior-roof-view.jpg",
+    "image": "/images/products/eco-ventilator.jpg",
     "galleryImages": [
       "/images/products/eco-ventilator.jpg"
     ],
@@ -866,7 +866,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "2,100 - 3,200 CFM",
       "powerConsumption": "0 Watts"
     },
-    "image": "/images/factory/factory-packaging-dispatch.jpg",
+    "image": "/images/products/turbo-ventilator-2.jpg",
     "galleryImages": [
       "/images/products/roof-extractor.jpg"
     ],
@@ -925,7 +925,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "1,900 - 3,200 CFM",
       "powerConsumption": "0 Watts"
     },
-    "image": "",
+    "image": "/images/products/wind-ventilator.jpg",
     "galleryImages": [
       "/images/products/wind-ventilator.jpg"
     ],
@@ -985,7 +985,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "3,500 - 6,500 CFM (Motorized mode)",
       "powerConsumption": "0.25 kW to 0.75 kW (when motor active)"
     },
-    "image": "/images/products/exhaust-installation-6.jpg",
+    "image": "/images/products/motoized-roof-1.jpg",
     "galleryImages": [
       "/images/products/motorized-turbo-ventilator.jpg"
     ],
@@ -1043,7 +1043,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "4,000 - 12,000 CFM",
       "powerConsumption": "0.5 HP to 3.0 HP (415V 3-Phase)"
     },
-    "image": "/images/products/exhaust-installation-2.jpg",
+    "image": "/images/products/motorized-3.jpg",
     "galleryImages": [
       "/images/products/power-ventilator.jpg"
     ],
@@ -1101,7 +1101,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "5,000 - 14,000 CFM",
       "powerConsumption": "1.0 HP to 5.0 HP"
     },
-    "image": "/images/products/real-cone-exhaust-fan.jpg",
+    "image": "/images/products/simpo-248-axial-flow.jpg",
     "galleryImages": [
       "/images/products/force-ventilator.jpg"
     ],
@@ -1275,7 +1275,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "5,000 - 16,000 CFM",
       "powerConsumption": "1.0 HP to 5.0 HP"
     },
-    "image": "/images/products/real-exhaust-row-factory.jpg",
+    "image": "/images/products/roof-exhaust-fan-simpovent.jpg",
     "galleryImages": [
       "/images/products/roof-extractor-fan.jpg"
     ],
@@ -1334,7 +1334,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "3,500 - 7,000 CFM",
       "powerConsumption": "0.25 HP to 1.0 HP (when motorized)"
     },
-    "image": "/images/products/exhaust-installation-4.jpg",
+    "image": "/images/products/turbo-ventilator-3.jpg",
     "galleryImages": [
       "/images/products/motorized-roof-air-ventilator.jpg"
     ],
