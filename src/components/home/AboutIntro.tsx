@@ -7,17 +7,17 @@ import { WatermarkedImage } from '../common/WatermarkedImage';
 
 export const AboutIntro: React.FC = () => {
   return (
-    <section className="py-16 md:py-24 bg-slate-50 border-y border-slate-200/70">
-      <div className="max-w-7xl mx-auto px-4">
+    <section className="py-16 md:py-24 bg-slate-50 border-y border-slate-200/70" suppressHydrationWarning>
+      <div className="max-w-7xl mx-auto px-4" suppressHydrationWarning>
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-          {/* Left Visual Column */}
+          {/* Left Visual Column: Real Factory & Office */}
           <div className="lg:col-span-5 space-y-4">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-emerald-900/40">
               <WatermarkedImage
-                src="/images/products/exhaust-installation-1.jpg"
-                alt="Shreeji Simpovent Factory Shed Installation"
+                src="/images/office/reception-lobby.jpg"
+                alt="Shreeji Sales Corporation Corporate Office Reception"
                 aspectRatio="aspect-[4/3]"
-                watermarkText="Shreeji Simpovent™ • Factory Site"
+                watermarkText="Shreeji Simpovent™ • Vasai Plant"
                 watermarkPosition="bottom-right"
               />
             </div>
@@ -95,7 +95,7 @@ export const AboutIntro: React.FC = () => {
                 href="/about"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-[#0e382c] hover:bg-[#155e4b] text-white font-bold text-sm shadow-md transition-colors"
               >
-                <span>Full Company Profile</span>
+                <span>Full Company Profile & Factory Tour</span>
                 <ArrowRight className="w-4 h-4" />
               </Link>
 

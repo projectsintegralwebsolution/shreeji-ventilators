@@ -1,59 +1,5 @@
 [
   {
-    "id": "1788008749787",
-    "title": "456",
-    "slug": "456",
-    "excerpt": "dgsdgsdg",
-    "content": "dgdsgsd",
-    "category": "Technical Guides",
-    "tags": [
-      "Turbo Ventilator",
-      "Factory Ventilation",
-      "CFM Sizing"
-    ],
-    "author": "Rajesh Sharma",
-    "authorRole": "Senior Ventilation Engineer",
-    "publishedAt": "2026-08-29",
-    "updatedAt": "2026-08-29",
-    "readTime": "5 min read",
-    "featuredImage": "/images/products/exhaust-installation-1.jpg",
-    "metaTitle": "456",
-    "metaDescription": "dgsdgsdg",
-    "focusKeywords": [
-      "industrial ventilator",
-      "turbo ventilator CFM",
-      "shed cooling"
-    ],
-    "isPublished": true
-  },
-  {
-    "id": "1788008691443",
-    "title": "123",
-    "slug": "123",
-    "excerpt": "sfsafsafas",
-    "content": "sfsafasf",
-    "category": "Technical Guides321",
-    "tags": [
-      "Turbo Ventilator",
-      "Factory Ventilation",
-      "CFM Sizing"
-    ],
-    "author": "Rajesh Sharma",
-    "authorRole": "Senior Ventilation Engineer",
-    "publishedAt": "2026-08-29",
-    "updatedAt": "2026-08-29",
-    "readTime": "5 min read",
-    "featuredImage": "/images/products/exhaust-installation-1.jpg",
-    "metaTitle": "safasfas",
-    "metaDescription": "fasfas",
-    "focusKeywords": [
-      "industrial ventilator",
-      "turbo ventilator CFM",
-      "shed cooling222"
-    ],
-    "isPublished": true
-  },
-  {
     "id": "1",
     "title": "How to Calculate CFM Requirements for Factory Sheds & PEB Warehouses",
     "slug": "how-to-calculate-cfm-for-factory-sheds",
