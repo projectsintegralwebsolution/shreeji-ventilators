@@ -11,7 +11,7 @@ export const HeroSlider: React.FC = () => {
 
   const slides = [
     {
-      bgImage: "/images/slides/slide-1.jpg",
+      bgImage: "/images/factory/factory-floor-presses.jpg",
       badge: "ISO 9001:2015 Certified • Simpovent™",
       title: "Zero-Power Industrial Wind Turbo Ventilators",
       subtitle: "Continuously exhausts trapped factory heat, smoke, and fumes using 100% natural wind energy — 0 Watts electricity.",

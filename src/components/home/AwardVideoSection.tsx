@@ -117,7 +117,7 @@ export const AwardVideoSection: React.FC = () => {
                 <video
                   controls
                   className="w-full h-full object-cover"
-                  poster="/images/slides/slide-1.jpg"
+                  poster="/images/factory/factory-manufacturing-line.jpg"
                 >
                   <source src="/videos/Simpovent.mp4" type="video/mp4" />
                   Your browser does not support HTML5 video.
