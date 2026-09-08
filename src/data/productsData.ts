@@ -275,7 +275,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "1,800 - 3,100 CFM",
       "powerConsumption": "0 Watts"
     },
-    "image": "/images/events/slide01.jpg",
+    "image": "",
     "galleryImages": [
       "/images/products/roof-air-ventilator.jpg"
     ],
@@ -335,7 +335,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "2,000 - 3,200 CFM",
       "powerConsumption": "0 Watts"
     },
-    "image": "/images/events/slide04.jpg",
+    "image": "",
     "galleryImages": [
       "/images/products/turbo-air-ventilator.jpg"
     ],
@@ -395,7 +395,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "1,900 - 3,200 CFM",
       "powerConsumption": "0 Watts"
     },
-    "image": "/images/events/slide05.jpg",
+    "image": "",
     "galleryImages": [
       "/images/products/wind-driven-ventilator.jpg"
     ],
@@ -454,7 +454,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "2,000 - 3,200 CFM",
       "powerConsumption": "0 Watts"
     },
-    "image": "/images/events/slide6.jpg",
+    "image": "",
     "galleryImages": [
       "/images/products/wind-operate-ventilator.jpg"
     ],
@@ -572,7 +572,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "2,000 - 3,200 CFM",
       "powerConsumption": "0 Watts"
     },
-    "image": "/images/events/slide09.jpg",
+    "image": "",
     "galleryImages": [
       "/images/products/roof-ventilator.jpg"
     ],
@@ -631,7 +631,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "2,000 - 3,200 CFM",
       "powerConsumption": "0 Watts"
     },
-    "image": "/images/events/slide010.jpg",
+    "image": "",
     "galleryImages": [
       "/images/products/turbine-ventilator.jpg"
     ],
@@ -690,7 +690,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "2,000 - 3,200 CFM",
       "powerConsumption": "0 Watts"
     },
-    "image": "/images/events/slide011.jpg",
+    "image": "",
     "galleryImages": [
       "/images/products/wind-turbine-ventilator.jpg"
     ],
@@ -749,7 +749,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "1,800 - 3,200 CFM",
       "powerConsumption": "0 Watts (Zero Electricity)"
     },
-    "image": "/images/events/2019-shreeji.jpg",
+    "image": "",
     "galleryImages": [
       "/images/products/powerless-ventilator.jpg"
     ],
@@ -925,7 +925,7 @@ export const productsData: ProductItem[] = [
       "airflowCfm": "1,900 - 3,200 CFM",
       "powerConsumption": "0 Watts"
     },
-    "image": "/images/events/indomech.jpeg",
+    "image": "",
     "galleryImages": [
       "/images/products/wind-ventilator.jpg"
     ],
