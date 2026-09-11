@@ -6,7 +6,7 @@ import type { Metadata } from 'next';
 import { QuoteButton } from '@/components/common/QuoteButton';
 
 export const metadata: Metadata = constructMetadata({
-  title: "Events & Exhibitions | Shreeji Sales Corporation - Simpovent™",
+  title: "Events & Exhibitions | Shreeji Sales Corporation - Simpovent®",
   description: "Explore Shreeji Sales Corporation's participation in premier industrial expos across India: IndoMach Hyderabad, IndoMach Jamshedpur, Industrial Engineering Expo Indore, Roof India Mumbai & Chennai, and National Inspiring Leaders Award.",
   canonicalUrl: "/events"
 });
@@ -23,7 +23,7 @@ export default function EventsPage() {
       location: "Hitex Exhibition Centre, Hyderabad, Telangana",
       stall: "Stall No. B-43",
       image: "/images/events/event1.jpeg",
-      description: "Showcased Simpovent™ zero-power wind turbo ventilators, motorized hybrid roof extractors, and custom FRP base plates to leading manufacturing industries, PEB contractors, and HVAC consultants from South India."
+      description: "Showcased Simpovent® zero-power wind turbo ventilators, motorized hybrid roof extractors, and custom FRP base plates to leading manufacturing industries, PEB contractors, and HVAC consultants from South India."
     },
     {
       id: "harbhajan-singh-award-2023",
@@ -194,7 +194,7 @@ export default function EventsPage() {
                 </div>
 
                 <div className="p-4 bg-slate-50 border-t border-slate-100 flex items-center justify-between">
-                  <span className="text-[11px] font-bold text-slate-500">Shreeji Simpovent™</span>
+                  <span className="text-[11px] font-bold text-slate-500">Shreeji Simpovent®</span>
                   <QuoteButton productName={`Inquiry for Model Displayed at: ${evt.title}`} className="px-3.5 py-1.5 text-xs font-bold" variant="primary">
                     Get Quotation
                   </QuoteButton>
@@ -262,7 +262,7 @@ export default function EventsPage() {
                 VISIT OUR FACTORY OR SCHEDULE CONSULTATION
               </span>
               <h3 className="text-2xl sm:text-3xl font-black text-white">
-                Experience Simpovent™ Live in Action
+                Experience Simpovent® Live in Action
               </h3>
               <p className="text-xs sm:text-sm text-emerald-100/90 max-w-xl">
                 Schedule a factory visit at our Vasai manufacturing plant or request an on-site engineer consultation for your facility.

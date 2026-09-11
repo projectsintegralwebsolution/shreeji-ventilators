@@ -51,7 +51,7 @@ export const AwardVideoSection: React.FC = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-4">
                 <p className="text-xs text-slate-200 font-semibold leading-snug">
-                  Cricketer <strong className="text-white">Harbhajan Singh</strong> presenting the Certificate of Appreciation & Trophy to Founder <strong className="text-white">Bharat Gurjar</strong> (Simpovent™).
+                  Cricketer <strong className="text-white">Harbhajan Singh</strong> presenting the Certificate of Appreciation & Trophy to Founder <strong className="text-white">Bharat Gurjar</strong> (Simpovent®).
                 </p>
               </div>
             </div>
@@ -63,7 +63,7 @@ export const AwardVideoSection: React.FC = () => {
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
-                <span><strong>Brand Honored:</strong> Simpovent™ (Mfg by Shreeji Sales Corporation).</span>
+                <span><strong>Brand Honored:</strong> Simpovent® (Mfg by Shreeji Sales Corporation).</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />

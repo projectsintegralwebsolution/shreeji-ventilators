@@ -57,7 +57,7 @@ export default function BlogDirectoryPage() {
                 src={featuredBlog.featuredImage || '/images/products/exhaust-installation-1.jpg'}
                 alt={featuredBlog.title}
                 aspectRatio="aspect-[16/10]"
-                watermarkText="Shreeji Simpovent™ Blog"
+                watermarkText="Shreeji Simpovent® Blog"
                 watermarkPosition="bottom-right"
               />
             </div>
@@ -122,7 +122,7 @@ export default function BlogDirectoryPage() {
                     src={blog.featuredImage || '/images/products/powerless-ventilator.jpg'}
                     alt={blog.title}
                     aspectRatio="aspect-[16/10]"
-                    watermarkText="Shreeji Simpovent™"
+                    watermarkText="Shreeji Simpovent®"
                     watermarkPosition="bottom-right"
                   />
                   <span className="absolute top-3 left-3 z-20 text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-white/90 backdrop-blur-md text-emerald-800 border border-slate-200 shadow-sm">

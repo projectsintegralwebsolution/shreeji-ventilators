@@ -10,11 +10,18 @@ export const ProductSpecs: React.FC<ProductSpecsProps> = ({ product }) => {
   const specEntries = Object.entries(product.specs).filter(([_, val]) => Boolean(val));
 
   const specLabels: Record<string, string> = {
-    throatDia: "Throat Diameter (Neck Size)",
+    throatDia: "Throat Diameter / Sweep Size",
     outerDia: "Outer Diameter (Rotor Dia)",
+    fanDiameter: "Fan Sweep / Rotor Diameter",
+    motorType: "Motor Technology & Drive Type",
+    noiseLevel: "Operating Noise Level",
+    coverageArea: "Effective Cooling Coverage Area",
+    voltageRating: "Input Voltage & Frequency",
+    protectionGrade: "Motor Protection / Ingress Grade",
+    maxRpm: "Operating Speed (RPM Control)",
     topCoverSize: "Top Cover Size",
     topCoverThickness: "Top Cover Thickness",
-    topCoverMoc: "Top Cover Material (MOC)",
+    topCoverMoc: "Top Cover / Hub Material (MOC)",
     bottomPlateWidth: "Bottom Plate Width",
     bottomPlateThickness: "Bottom Plate Thickness",
     bottomPlateMoc: "Bottom Plate MOC",
@@ -28,13 +35,13 @@ export const ProductSpecs: React.FC<ProductSpecsProps> = ({ product }) => {
     basePlateMoc: "Base Plate Material (MOC)",
     shaftThickness: "Central Shaft Thickness",
     shaftLength: "Central Shaft Length",
-    shaftMoc: "Central Shaft MOC",
-    bladeLength: "Blade Length",
+    shaftMoc: "Central Shaft / Safety Hub MOC",
+    bladeLength: "Blade Length / Span",
     bladeWidth: "Blade Width",
     bladeThickness: "Blade Sheet Thickness",
-    bladeMoc: "Blade Metallurgy (MOC)",
+    bladeMoc: "Blade Metallurgy & Aerodynamics (MOC)",
     bladeCount: "Total Blade / Vane Count",
-    airflowCfm: "Volumetric Airflow (CFM)",
+    airflowCfm: "Volumetric Airflow (CFM / CMM)",
     powerConsumption: "Electrical Power Required"
   };
 

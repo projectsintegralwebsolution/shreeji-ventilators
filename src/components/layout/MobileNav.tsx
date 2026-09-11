@@ -70,7 +70,7 @@ export const MobileNav: React.FC<MobileNavProps> = ({ isOpen, onClose }) => {
               className="w-full flex items-center justify-between py-2.5 px-3 rounded-lg text-sm font-semibold text-slate-800 hover:bg-emerald-50 hover:text-emerald-800 cursor-pointer"
               suppressHydrationWarning
             >
-              <span>Products (All 21 Models)</span>
+              <span>Products (All 22 Models)</span>
               <ChevronDown className={`w-4 h-4 transition-transform ${productsOpen ? 'rotate-180' : ''}`} />
             </button>
             {productsOpen && (

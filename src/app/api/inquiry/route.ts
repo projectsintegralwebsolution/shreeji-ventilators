@@ -36,7 +36,7 @@ export async function POST(request: Request) {
       <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #ffffff;">
         <div style="background-color: #0e382c; color: #ffffff; padding: 20px; text-align: center;">
           <h2 style="margin: 0; font-size: 20px;">New Customer Inquiry (Website Lead)</h2>
-          <p style="margin: 5px 0 0 0; color: #2ec4b6; font-size: 13px;">Shreeji Sales Corporation • Simpovent™</p>
+          <p style="margin: 5px 0 0 0; color: #2ec4b6; font-size: 13px;">Shreeji Sales Corporation • Simpovent®</p>
         </div>
         <div style="padding: 24px; color: #334155; line-height: 1.6;">
           <p><strong>A new quotation request has been submitted through the website:</strong></p>
@@ -62,7 +62,7 @@ export async function POST(request: Request) {
       <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #ffffff;">
         <div style="background-color: #0e382c; color: #ffffff; padding: 20px; text-align: center;">
           <h2 style="margin: 0; font-size: 20px;">Thank You for Contacting Shreeji Sales Corporation</h2>
-          <p style="margin: 5px 0 0 0; color: #2ec4b6; font-size: 13px;">Brand: Simpovent™ • ISO 9001:2015 Certified</p>
+          <p style="margin: 5px 0 0 0; color: #2ec4b6; font-size: 13px;">Brand: Simpovent® • ISO 9001:2015 Certified</p>
         </div>
         <div style="padding: 24px; color: #334155; line-height: 1.6;">
           <p>Dear <strong>${name}</strong>,</p>
@@ -77,7 +77,7 @@ export async function POST(request: Request) {
           <p style="font-size: 13px; color: #64748b;">
             Best Regards,<br />
             <strong>Sales & Engineering Team</strong><br />
-            Shreeji Sales Corporation (Simpovent™)<br />
+            Shreeji Sales Corporation (Simpovent®)<br />
             Takdir Ind. Estate, Vasai East, Palghar, Maharashtra - 401208
           </p>
         </div>
@@ -138,7 +138,7 @@ export async function POST(request: Request) {
           await transporter.sendMail({
             from: `"Shreeji Sales Corp" <${smtpUser}>`,
             to: email,
-            subject: 'Quotation Request Received - Shreeji Sales Corporation (Simpovent™)',
+            subject: 'Quotation Request Received - Shreeji Sales Corporation (Simpovent®)',
             html: customerHtml
           });
         }

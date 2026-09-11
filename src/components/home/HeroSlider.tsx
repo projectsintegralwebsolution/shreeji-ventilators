@@ -11,69 +11,69 @@ export const HeroSlider: React.FC = () => {
 
   const slides = [
     {
-      bgImage: "/images/factory/factory-floor-presses.jpg",
-      badge: "ISO 9001:2015 Certified • Simpovent™",
-      title: "Zero-Power Industrial Wind Turbo Ventilators",
-      subtitle: "Continuously exhausts trapped factory heat, smoke, and fumes using 100% natural wind energy — 0 Watts electricity.",
+      bgImage: "/images/products/exhaust-installation-3.jpg",
+      badge: "Priority 1 • Hybrid Extraction Series",
+      title: "Motorized Industrial Roof Ventilators & Hybrid Extractors",
+      subtitle: "Combines 100% natural wind-driven suction with high-torque electric motor boost for severe heat spikes and dense factory smoke extraction.",
       bullets: [
-        "Zero Electricity Bills & Zero Operating Cost",
-        "Hindalco 8011 Aluminium Curved Vanes & Dual Sealed Bearings",
-        "100% Rainproof Installation with Matching FRP Base Plates"
-      ],
-      ctaPrimary: "Calculate Ventilation CFM",
-      ctaPrimaryUrl: "/calculator"
-    },
-    {
-      bgImage: "/images/slides/slide-2.jpg",
-      badge: "High Volume Wall Exhaust Series",
-      title: "Heavy Duty Industrial Wall Cone Exhaust Fans",
-      subtitle: "Engineered for intense welding smoke, chemical fumes, and process heat evacuation in large factory buildings.",
-      bullets: [
-        "Dynamically Balanced High-CFM Impeller Blades",
-        "Heavy Gauge Corrosion-Proof Powder Coated Body",
-        "Direct Factory Supply from Vasai Manufacturing Facility"
+        "Guaranteed High-Capacity CFM Extraction Even on Dead Calm Days",
+        "Hindalco 8011 Aluminium Vanes with IP55 Weatherproof Copper Motor",
+        "100% Monsoon-Proof & Rainwater Seepage Resistant Integration"
       ],
       ctaPrimary: "Get Instant Quotation",
       ctaPrimaryUrl: "/contact"
     },
     {
+      bgImage: "/images/products/hvls-industrial-fan-ceiling.jpg",
+      badge: "SIMPOVENT® HVLS Series • PMSM Direct Drive",
+      title: "Industrial HVLS PMSM Ceiling Fans (Up to 24 Ft / 15,500 CMM)",
+      subtitle: "Permanent Magnet Synchronous Motor direct-drive technology — zero gearbox, zero oil leak risk, 20X motor life, and whisper-quiet cooling for expansive factory sheds.",
+      bullets: [
+        "Massive Air Volume up to 15,500 CMM (547,000 CFM)",
+        "Saves 50% Electricity Compared to Traditional Gearbox Fans",
+        "Ultra-Quiet Operation (38-55 dBA) with Triple Redundant Safety Locking"
+      ],
+      ctaPrimary: "Explore HVLS Fans",
+      ctaPrimaryUrl: "/hvls-fan"
+    },
+    {
+      bgImage: "/images/products/heavy-duty-industrial-exhaust-fan.jpg",
+      badge: "High-Volume Power Exhaust Series",
+      title: "Heavy Duty Industrial Wall & Roof Cone Exhaust Fans",
+      subtitle: "Engineered for intense welding smoke, chemical fumes, and process heat evacuation across expansive manufacturing facilities.",
+      bullets: [
+        "Dynamically Balanced High-CFM Impeller Blades (Up to 28,000 CFM)",
+        "Heavy Gauge Corrosion-Proof Powder Coated Body & Automatic Shutters",
+        "Direct Factory Supply & Custom Sizing from Vasai Manufacturing Plant"
+      ],
+      ctaPrimary: "Get Exhaust Fan Quote",
+      ctaPrimaryUrl: "/contact"
+    },
+    {
+      bgImage: "/images/factory/factory-floor-presses.jpg",
+      badge: "ISO 9001:2015 Certified • Simpovent®",
+      title: "Zero-Power Industrial Wind Turbo Ventilators",
+      subtitle: "Continuously exhausts trapped factory heat, smoke, and fumes using 100% natural wind energy — 0 Watts electricity.",
+      bullets: [
+        "Zero Electricity Bills & Zero Operating Cost for Lifetime",
+        "Hindalco 8011 Aluminium Curved Vanes & Dual Sealed HCH Bearings",
+        "10-Year Comprehensive Structural & Rotor Cage Warranty"
+      ],
+      ctaPrimary: "Calculate CFM Sizing",
+      ctaPrimaryUrl: "/calculator"
+    },
+    {
       bgImage: "/images/slides/slide-3.jpg",
       badge: "Natural Air Flow Systems",
-      title: "Industrial Roof Air Hoods & Natural Extractors",
-      subtitle: "Custom fabricated FRP and polycarbonate roof extractors designed for metal PEB and asbestos roofs.",
+      title: "Industrial Roof Air Extractors & Matching FRP Base Plates",
+      subtitle: "Custom fabricated UV-stabilized virgin FRP base plates designed for exact profile matching with Tata Bluescope, JSW, and Kirby metal roofing.",
       bullets: [
-        "UV-Stabilized Weatherproof Virgin Resin Construction",
-        "Seamless Profile Match for Tata Bluescope, JSW & Kirby",
-        "Complete Protection Against Monsoon Capillary Water Seepage"
-      ],
-      ctaPrimary: "Explore 21 Products",
-      ctaPrimaryUrl: "/products"
-    },
-    {
-      bgImage: "/images/slides/slide-4.jpg",
-      badge: "Thermal Siphon Engineering",
-      title: "Eliminate Industrial Heat Blankets in Factory Sheds",
-      subtitle: "Reduces indoor temperature by 4°C to 8°C across foundries, boiler rooms, PEB warehouses, and fabrication plants.",
-      bullets: [
-        "24/7 Silent Extraction Without Noise or Vibrations",
-        "10-Year Structural & Rotor Cage Warranty",
-        "Pan-India Dispatch & Ready Stock Availability"
-      ],
-      ctaPrimary: "Request Official Quote",
-      ctaPrimaryUrl: "/contact"
-    },
-    {
-      bgImage: "/images/slides/slide-5.jpg",
-      badge: "High Static Pressure Blowers",
-      title: "Industrial Heavy Duty Cone Blowers & Axial Fans",
-      subtitle: "High-capacity air displacement systems designed for severe heat zones, forging shops, and paint booths.",
-      bullets: [
-        "Precision Aerodynamic Bell Mouth Intake Cowl",
-        "Heavy Duty Copper Wound Motor with IP55 Protection",
+        "100% Monsoon Leakproof & Capillary Water Seepage Resistant",
+        "High Light Transmission Polycarbonate Skylight Integration Available",
         "Pan-India Fast Dispatch Directly from Vasai Factory"
       ],
-      ctaPrimary: "Consult Ventilation Engineer",
-      ctaPrimaryUrl: "/contact"
+      ctaPrimary: "Explore 22 Products",
+      ctaPrimaryUrl: "/products"
     }
   ];
 
@@ -124,7 +124,7 @@ export const HeroSlider: React.FC = () => {
         <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-950/70 backdrop-blur-md border border-white/20 text-white shadow-lg">
           <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
           <span className="text-[11px] font-black tracking-wider uppercase text-emerald-200">
-            Shreeji Simpovent™
+            Shreeji Simpovent®
           </span>
         </div>
       </div>

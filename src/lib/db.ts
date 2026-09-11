@@ -86,7 +86,7 @@ function writeJsonFile<T>(filename: string, data: T): void {
 
 const initialSettings: SiteSettings = {
   companyName: 'Shreeji Sales Corporation',
-  brandName: 'Simpovent™',
+  brandName: 'Simpovent®',
   primaryPhone: '+91 93202 93021',
   secondaryPhone: '+91 72628 60283',
   whatsappNumber: '917262860283',

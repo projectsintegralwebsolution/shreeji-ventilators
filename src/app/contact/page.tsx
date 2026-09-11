@@ -91,7 +91,7 @@ export default function ContactPage() {
                     Shreeji Sales Corporation
                   </h2>
                   <span className="text-xs font-semibold text-emerald-600 block mt-0.5">
-                    Brand: Simpovent™ (Since 2005)
+                    Brand: Simpovent® (Since 2005)
                   </span>
                 </div>
 

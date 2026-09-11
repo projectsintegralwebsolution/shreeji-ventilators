@@ -9,7 +9,7 @@ import { AwardVideoSection } from '@/components/home/AwardVideoSection';
 import { WatermarkedImage } from '@/components/common/WatermarkedImage';
 
 export const metadata: Metadata = constructMetadata({
-  title: "About Us | Shreeji Sales Corporation - Simpovent™",
+  title: "About Us | Shreeji Sales Corporation - Simpovent®",
   description: "Learn about Shreeji Sales Corporation, founded in 2005. ISO 9001:2015 certified manufacturer of Simpovent wind turbo roof ventilators, factory plant tour in Vasai, and leadership by Bharat Gurjar.",
   canonicalUrl: "/about"
 });
@@ -32,7 +32,7 @@ export default function AboutPage() {
       title: "Export Quality Inspection & Packaging",
       category: "Quality Assurance",
       image: "/images/factory/factory-packaging-dispatch.jpg",
-      description: "Rigorous dynamic balance testing and secure packaging in Simpovent™ branded export-grade corrugated boxes and wooden crates."
+      description: "Rigorous dynamic balance testing and secure packaging in Simpovent® branded export-grade corrugated boxes and wooden crates."
     },
     {
       title: "Warehouse & Finished Goods Inventory",
@@ -68,7 +68,7 @@ export default function AboutPage() {
             About Shreeji Sales Corporation
           </h1>
           <p className="text-xs sm:text-sm md:text-base text-emerald-100/90 max-w-2xl mx-auto leading-relaxed">
-            India's foremost ISO 9001:2015 certified manufacturer, exporter, and supplier of <strong>Simpovent™</strong> industrial wind-driven roof turbo ventilators, motorized hybrid extractors, and heavy-duty industrial exhaust systems.
+            India's foremost ISO 9001:2015 certified manufacturer, exporter, and supplier of <strong>Simpovent®</strong> industrial wind-driven roof turbo ventilators, motorized hybrid extractors, and heavy-duty industrial exhaust systems.
           </p>
         </div>
       </section>
@@ -86,7 +86,7 @@ export default function AboutPage() {
                 Engineering Precision Natural Ventilation for Over Two Decades
               </h2>
               <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                Founded in 2005 in Vasai (East), Palghar, Maharashtra, <strong>Shreeji Sales Corporation</strong> has grown into one of India's most trusted manufacturers and exporters of industrial wind-driven roof turbo ventilators under our registered brand <strong>Simpovent™</strong>.
+                Founded in 2005 in Vasai (East), Palghar, Maharashtra, <strong>Shreeji Sales Corporation</strong> has grown into one of India's most trusted manufacturers and exporters of industrial wind-driven roof turbo ventilators under our registered brand <strong>Simpovent®</strong>.
               </p>
               <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
                 Equipped with heavy-duty metal spinning lathes, hydraulic power presses, precision CNC forming machinery, and dynamic balancing test rigs, our Vasai factory manufactures ventilators adhering strictly to Indian Standards (IS) and international ASHRAE HVAC principles.
@@ -114,7 +114,7 @@ export default function AboutPage() {
                 src="/images/office/reception-lobby.jpg"
                 alt="Shreeji Sales Corporation Corporate Reception"
                 aspectRatio="aspect-[4/3]"
-                watermarkText="Shreeji Simpovent™ • Corporate Office"
+                watermarkText="Shreeji Simpovent® • Corporate Office"
                 watermarkPosition="bottom-right"
               />
             </div>
@@ -147,7 +147,7 @@ export default function AboutPage() {
                 A Message from Director Bharat Gurjar
               </h3>
               <p className="text-xs sm:text-sm text-slate-600 leading-relaxed italic border-l-4 border-emerald-600 pl-4 py-1">
-                "Our mission at Shreeji Sales Corporation has always been clear — to deliver 100% dependable, maintenance-free, and energy-saving ventilation systems engineered specifically for harsh Indian manufacturing environments. Every Simpovent™ unit is a promise of quality, performance, and durability."
+                "Our mission at Shreeji Sales Corporation has always been clear — to deliver 100% dependable, maintenance-free, and energy-saving ventilation systems engineered specifically for harsh Indian manufacturing environments. Every Simpovent® unit is a promise of quality, performance, and durability."
               </p>
               <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
                 Under Mr. Gurjar's visionary leadership, Shreeji Sales Corporation was felicitated at the <strong>Inspiring Leaders Awards 2023</strong> in Mumbai by legendary cricketer <strong>Harbhajan Singh</strong> for Outstanding Contribution in Leading Manufacturer of Roof Ventilators in India.
@@ -205,7 +205,7 @@ export default function AboutPage() {
                 </div>
 
                 <div className="p-4 bg-slate-50 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-emerald-800">
-                  <span>Simpovent™ ISO 9001:2015</span>
+                  <span>Simpovent® ISO 9001:2015</span>
                   <span>Photo #{idx + 1}</span>
                 </div>
               </div>

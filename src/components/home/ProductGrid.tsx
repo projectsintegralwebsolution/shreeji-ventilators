@@ -11,10 +11,11 @@ export const ProductGrid: React.FC = () => {
   const [activeTab, setActiveTab] = useState<string>('all');
 
   const categories = [
-    { key: 'all', label: 'All 21 Products' },
-    { key: 'wind-driven', label: 'Wind-Driven Ventilators' },
-    { key: 'motorized-hybrid', label: 'Motorized Hybrid Series' },
-    { key: 'industrial-exhaust', label: 'Heavy Duty Exhaust Fans' }
+    { key: 'all', label: 'All 22 Products' },
+    { key: 'motorized-hybrid', label: 'Motorized Roof Ventilators' },
+    { key: 'industrial-exhaust', label: 'Heavy Duty Exhaust Fans' },
+    { key: 'hvls-fans', label: 'HVLS PMSM Fans' },
+    { key: 'wind-driven', label: 'Wind-Driven Ventilators' }
   ];
 
   const filteredProducts = activeTab === 'all'
@@ -72,7 +73,7 @@ export const ProductGrid: React.FC = () => {
                     src={product.image}
                     alt={product.name}
                     aspectRatio="aspect-[16/10]"
-                    watermarkText="Simpovent™"
+                    watermarkText="Simpovent®"
                     watermarkPosition="bottom-right"
                   />
                 </Link>

@@ -17,7 +17,7 @@ export const AboutIntro: React.FC = () => {
                 src="/images/office/reception-lobby.jpg"
                 alt="Shreeji Sales Corporation Corporate Office Reception"
                 aspectRatio="aspect-[4/3]"
-                watermarkText="Shreeji Simpovent™ • Vasai Plant"
+                watermarkText="Shreeji Simpovent® • Vasai Plant"
                 watermarkPosition="bottom-right"
               />
             </div>
@@ -47,7 +47,7 @@ export const AboutIntro: React.FC = () => {
             </div>
 
             <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-              Established in <strong>2005</strong> in Vasai (East), Palghar, Maharashtra, <strong>Shreeji Sales Corporation</strong> manufactures and supplies heavy-duty, zero-power <strong>Wind Driven Turbo Roof Ventilators</strong> and <strong>Industrial Exhaust Systems</strong> under our registered brand <strong className="text-emerald-800">Simpovent™</strong>.
+              Established in <strong>2005</strong> in Vasai (East), Palghar, Maharashtra, <strong>Shreeji Sales Corporation</strong> manufactures and supplies heavy-duty, zero-power <strong>Wind Driven Turbo Roof Ventilators</strong> and <strong>Industrial Exhaust Systems</strong> under our registered brand <strong className="text-emerald-800">Simpovent®</strong>.
             </p>
 
             <p className="text-xs md:text-sm text-slate-600 leading-relaxed">

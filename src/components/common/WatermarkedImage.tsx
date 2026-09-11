@@ -17,7 +17,7 @@ export const WatermarkedImage: React.FC<WatermarkedImageProps> = ({
   className = "w-full h-full object-cover",
   aspectRatio = "aspect-[4/3]",
   priority = false,
-  watermarkText = "Shreeji Simpovent™ • ISO 9001:2015",
+  watermarkText = "Shreeji Simpovent® • ISO 9001:2015",
   watermarkPosition = "bottom-right"
 }) => {
   const positionClasses = {
@@ -40,7 +40,7 @@ export const WatermarkedImage: React.FC<WatermarkedImageProps> = ({
 
           <div>
             <span className="text-[9px] font-black uppercase tracking-widest text-emerald-400 block">
-              SIMPOVENT™ TECHNICAL SPECIFICATION
+              SIMPOVENT® TECHNICAL SPECIFICATION
             </span>
             <span className="text-xs font-bold text-white/90 block mt-0.5 line-clamp-1">
               {alt}
@@ -72,18 +72,7 @@ export const WatermarkedImage: React.FC<WatermarkedImageProps> = ({
         className={`w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105 ${className}`}
         loading={priority ? 'eager' : 'lazy'}
       />
-      {/* Subtle Gradient Shadow for Contrast */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-60 pointer-events-none" />
-
-      {/* Industrial Verification Watermark Overlay Badge */}
-      <div className={`absolute ${positionClasses[watermarkPosition]} z-10 pointer-events-none`}>
-        <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-slate-950/70 backdrop-blur-md border border-white/20 text-white shadow-md">
-          <Wind className="w-3 h-3 text-emerald-400 shrink-0 animate-spin-slow" />
-          <span className="text-[10px] font-black tracking-wider uppercase text-emerald-100/90 whitespace-nowrap">
-            {watermarkText}
-          </span>
-        </div>
-      </div>
     </div>
   );
 };
+

@@ -55,7 +55,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
             </div>
             <div>
               <span className="font-bold text-sm block">Shreeji Admin</span>
-              <span className="text-[10px] text-emerald-400">Simpovent™ Backend</span>
+              <span className="text-[10px] text-emerald-400">Simpovent® Backend</span>
             </div>
           </div>
 

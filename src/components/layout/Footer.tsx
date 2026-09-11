@@ -198,7 +198,7 @@ export const Footer: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
           <div>
             <p>
-              © {new Date().getFullYear()} <strong className="text-white">Shreeji Sales Corporation</strong>. All Rights Reserved. Brand: <strong className="text-emerald-400">Simpovent™</strong>
+              © {new Date().getFullYear()} <strong className="text-white">Shreeji Sales Corporation</strong>. All Rights Reserved. Brand: <strong className="text-emerald-400">Simpovent®</strong>
             </p>
             <p className="text-[11px] text-slate-500 mt-0.5">
               AN ISO 9001:2015 Certified Manufacturer in Vasai, Palghar, Maharashtra, India.

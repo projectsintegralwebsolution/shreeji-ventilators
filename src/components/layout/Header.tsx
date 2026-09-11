@@ -67,7 +67,7 @@ export const Header: React.FC = () => {
               </div>
               <span className="hidden sm:inline-block text-slate-400">|</span>
               <span className="hidden sm:inline-block text-emerald-400 font-semibold text-[11px]">
-                Brand: Simpovent™ (Since 2005)
+                Brand: Simpovent® (Since 2005)
               </span>
             </div>
           </div>

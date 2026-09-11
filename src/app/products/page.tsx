@@ -7,7 +7,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = constructMetadata({
   title: "All Products - Industrial Wind & Roof Ventilators",
-  description: "Explore the complete range of 21 industrial wind-driven ventilators, motorized hybrid roof ventilators, and heavy-duty industrial exhaust fans by Shreeji Sales Corporation.",
+  description: "Explore the complete range of 22 industrial wind-driven ventilators, motorized hybrid roof ventilators, heavy-duty industrial exhaust fans, and HVLS PMSM fans by Shreeji Sales Corporation.",
   canonicalUrl: "/products",
   keywords: [
     "Industrial Ventilator Catalog",
