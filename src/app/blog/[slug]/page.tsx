@@ -57,7 +57,7 @@ export default async function BlogPostPage({ params }: PageProps) {
     "@type": "BlogPosting",
     "headline": blog.title,
     "description": blog.metaDescription || blog.excerpt,
-    "image": `https://shreejiwindventilator.com${blog.featuredImage || '/images/products/exhaust-installation-1.jpg'}`,
+    "image": `https://shreejiwindventilator.com${blog.featuredImage || '/images/products/motoized-roof-1.jpg'}`,
     "author": {
       "@type": "Person",
       "name": blog.author,
@@ -125,7 +125,7 @@ export default async function BlogPostPage({ params }: PageProps) {
         {/* Featured Image */}
         <div className="rounded-3xl overflow-hidden shadow-2xl border border-slate-200">
           <WatermarkedImage
-            src={blog.featuredImage || '/images/products/exhaust-installation-1.jpg'}
+            src={blog.featuredImage || '/images/products/motoized-roof-1.jpg'}
             alt={blog.title}
             aspectRatio="aspect-[16/9]"
             watermarkText="Shreeji Simpovent® • Engineering Guide"

@@ -37,7 +37,7 @@ export const HeroSlider: React.FC = () => {
       ctaPrimaryUrl: "/hvls-fan"
     },
     {
-      bgImage: "/images/products/heavy-duty-industrial-exhaust-fan.jpg",
+      bgImage: "/images/products/real-cone-exhaust-fan.jpg",
       badge: "High-Volume Power Exhaust Series",
       title: "Heavy Duty Industrial Wall & Roof Cone Exhaust Fans",
       subtitle: "Engineered for intense welding smoke, chemical fumes, and process heat evacuation across expansive manufacturing facilities.",

@@ -54,7 +54,7 @@ export default function BlogDirectoryPage() {
           <div className="mb-14 bg-white rounded-3xl border border-slate-200/90 shadow-xl overflow-hidden grid grid-cols-1 lg:grid-cols-12 gap-6 items-center hover:border-emerald-500 transition-all">
             <div className="lg:col-span-6 h-full min-h-[260px] relative">
               <WatermarkedImage
-                src={featuredBlog.featuredImage || '/images/products/exhaust-installation-1.jpg'}
+                src={featuredBlog.featuredImage || '/images/products/motoized-roof-1.jpg'}
                 alt={featuredBlog.title}
                 aspectRatio="aspect-[16/10]"
                 watermarkText="Shreeji Simpovent® Blog"

@@ -16,7 +16,7 @@ export default function CreateNewBlogPage() {
     author: 'Rajesh Sharma',
     authorRole: 'Senior Ventilation Engineer',
     readTime: '5 min read',
-    featuredImage: '/images/products/exhaust-installation-1.jpg',
+    featuredImage: '/images/products/motoized-roof-1.jpg',
     metaTitle: '',
     metaDescription: '',
     tags: 'Turbo Ventilator, Factory Ventilation, CFM Sizing',

@@ -72,6 +72,18 @@ export const WatermarkedImage: React.FC<WatermarkedImageProps> = ({
         className={`w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105 ${className}`}
         loading={priority ? 'eager' : 'lazy'}
       />
+      {/* Subtle gradient for contrast */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-50 pointer-events-none" />
+
+      {/* Coded Brand Watermark Badge */}
+      <div className={`absolute ${positionClasses[watermarkPosition]} z-10 pointer-events-none`}>
+        <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-950/75 backdrop-blur-md border border-white/20 text-white shadow-md">
+          <Wind className="w-3 h-3 text-emerald-400 shrink-0 animate-spin-slow" />
+          <span className="text-[10px] font-black tracking-wider uppercase text-emerald-100 whitespace-nowrap">
+            {watermarkText}
+          </span>
+        </div>
+      </div>
     </div>
   );
 };

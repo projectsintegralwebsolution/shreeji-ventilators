@@ -9,8 +9,9 @@ import { FAQAccordion } from '@/components/home/FAQAccordion';
 import { JsonLd } from '@/components/common/JsonLd';
 import { getProductSchema, getBreadcrumbSchema, constructMetadata } from '@/lib/seo';
 import type { Metadata } from 'next';
-import { CheckCircle2, ShieldCheck, Factory, Sparkles, MapPin } from 'lucide-react';
+import { CheckCircle2, ShieldCheck, Factory, Sparkles, MapPin, Camera } from 'lucide-react';
 import { QuoteButton } from '@/components/common/QuoteButton';
+import { WatermarkedImage } from '@/components/common/WatermarkedImage';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -91,6 +92,39 @@ export default async function KeywordProductPage({ params }: PageProps) {
                 </p>
               ))}
             </div>
+
+            {/* Product Photo & Site Installation Gallery */}
+            {product.galleryImages && product.galleryImages.length > 0 && (
+              <div className="space-y-4 pt-2">
+                <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                  <div>
+                    <span className="text-xs font-extrabold uppercase tracking-widest text-emerald-700 block">
+                      FACTORY & INSTALLATION GALLERY
+                    </span>
+                    <h3 className="text-xl font-bold text-slate-900">
+                      Product Angles & Real Site Installations
+                    </h3>
+                  </div>
+                  <span className="text-xs font-bold text-slate-500 hidden sm:inline-flex items-center gap-1">
+                    <Camera className="w-3.5 h-3.5 text-emerald-600" /> Real Factory Photos
+                  </span>
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                  {product.galleryImages.map((img, idx) => (
+                    <div key={idx} className="rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
+                      <WatermarkedImage
+                        src={img}
+                        alt={`${product.name} - View ${idx + 1}`}
+                        aspectRatio="aspect-[4/3]"
+                        watermarkText="Simpovent®"
+                        watermarkPosition="bottom-right"
+                      />
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
 
             {/* Technical Specs Table */}
             <ProductSpecs product={product} />
