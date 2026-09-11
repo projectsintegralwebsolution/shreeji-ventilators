@@ -28,7 +28,7 @@ export const TechSpecsComparison: React.FC = () => {
             Technical Specification Matrix
           </h2>
           <p className="text-xs sm:text-sm text-slate-600 mt-2">
-            Detailed dimensions, metallurgy, bearing makes, and CFM exhaust metrics for Shreeji Simpovent industrial roof ventilators.
+            Detailed dimensions, metallurgy, bearing makes, and CFM exhaust metrics for SIMPOVENT® industrial roof ventilators.
           </p>
         </div>
 

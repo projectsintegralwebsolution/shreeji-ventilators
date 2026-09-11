@@ -117,7 +117,7 @@ export default async function KeywordProductPage({ params }: PageProps) {
                         src={img}
                         alt={`${product.name} - View ${idx + 1}`}
                         aspectRatio="aspect-[4/3]"
-                        watermarkText="Simpovent®"
+                        watermarkText="SIMPOVENT®"
                         watermarkPosition="bottom-right"
                       />
                     </div>

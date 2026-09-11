@@ -11,8 +11,8 @@ export const faqsData: FAQItem[] = [
     category: "general"
   },
   {
-    question: "What are the primary materials (MOC) used in Shreeji Simpovent Turbo Ventilators?",
-    answer: "Shreeji Simpovent ventilators are manufactured using premium Hindalco Make Aluminium (Grade 8011/3003) for the aerodynamic blades and rotor cage, combined with heavy-gauge Stainless Steel (Grade SS 304) for top covers, bottom rings, and fasteners. For corrosive chemical environments, 100% SS 304 or SS 316 constructions are also custom-engineered.",
+    question: "What are the primary materials (MOC) used in SIMPOVENT® Turbo Ventilators?",
+    answer: "SIMPOVENT® ventilators are manufactured by Shreeji Sales Corporation using premium Hindalco Make Aluminium (Grade 8011/3003) for the aerodynamic blades and rotor cage, combined with heavy-gauge Stainless Steel (Grade SS 304) for top covers, bottom rings, and fasteners. For corrosive chemical environments, 100% SS 304 or SS 316 constructions are also custom-engineered.",
     category: "technical"
   },
   {
@@ -26,7 +26,7 @@ export const faqsData: FAQItem[] = [
     category: "installation"
   },
   {
-    question: "Can Shreeji Turbo Ventilators withstand heavy rainstorms, cyclonic winds, and water leakage?",
+    question: "Can SIMPOVENT® Turbo Ventilators withstand heavy rainstorms, cyclonic winds, and water leakage?",
     answer: "Yes, 100%. The aerodynamic curved blade contour is engineered with dual-channel capillary water dams that prevent raindrop ingress even during driving horizontal monsoon rains. Additionally, our matching custom-molded FRP (Fiberglass Reinforced Plastic) or Polycarbonate base plates perfectly overlap your existing metal/asbestos roof profiles, sealing the opening completely against leaks.",
     category: "technical"
   },
@@ -42,7 +42,7 @@ export const faqsData: FAQItem[] = [
   },
   {
     question: "What warranty and service support does Shreeji Sales Corporation provide across India?",
-    answer: "All Shreeji Simpovent Turbo Ventilators carry a comprehensive 10-Year structural and manufacturing warranty. We maintain a pan-India distribution network with ready-stock inventory for immediate dispatch to Maharashtra, Gujarat, Rajasthan, Karnataka, Tamil Nadu, Delhi NCR, and nationwide.",
+    answer: "All SIMPOVENT® Turbo Ventilators manufactured by Shreeji Sales Corporation carry a comprehensive 10-Year structural and manufacturing warranty. We maintain a pan-India distribution network with ready-stock inventory for immediate dispatch to Maharashtra, Gujarat, Rajasthan, Karnataka, Tamil Nadu, Delhi NCR, and nationwide.",
     category: "general"
   }
 ];

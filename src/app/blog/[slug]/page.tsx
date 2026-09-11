@@ -128,7 +128,7 @@ export default async function BlogPostPage({ params }: PageProps) {
             src={blog.featuredImage || '/images/products/motoized-roof-1.jpg'}
             alt={blog.title}
             aspectRatio="aspect-[16/9]"
-            watermarkText="Shreeji Simpovent® • Engineering Guide"
+            watermarkText="SIMPOVENT® • Engineering Guide"
             watermarkPosition="bottom-right"
             priority={true}
           />

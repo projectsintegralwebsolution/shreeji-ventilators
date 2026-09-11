@@ -48,8 +48,8 @@ export const CFMCalculator: React.FC = () => {
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-white tracking-tight">
             Factory Ventilation & CFM Sizing Calculator
           </h2>
-          <p className="text-xs sm:text-sm text-emerald-100/80 mt-2">
-            Calculate your shed air volume, required air changes per hour (ACPH), and exact count of 21" or 24" Shreeji Simpovent Turbo Ventilators needed.
+          <p className="text-xs sm:text-sm text-slate-600 max-w-2xl mx-auto leading-relaxed">
+            Calculate your shed air volume, required air changes per hour (ACPH), and exact count of 21" or 24" SIMPOVENT® Turbo Ventilators needed for your facility.
           </p>
         </div>
 
@@ -209,7 +209,7 @@ export const CFMCalculator: React.FC = () => {
                   {unitsRequired} <span className="text-lg font-bold text-emerald-300">Units</span>
                 </span>
                 <span className="text-[11px] text-emerald-100/90 block">
-                  Shreeji Simpovent {ventilatorSize}" Turbo Ventilators with matching FRP Base Plates
+                  SIMPOVENT® {ventilatorSize}" Turbo Ventilators with matching FRP Base Plates
                 </span>
               </div>
             </div>

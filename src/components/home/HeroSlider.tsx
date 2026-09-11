@@ -11,9 +11,9 @@ export const HeroSlider: React.FC = () => {
 
   const slides = [
     {
-      bgImage: "/images/products/exhaust-installation-3.jpg",
+      bgImage: "/images/products/motoized-roof-1.jpg",
       badge: "Priority 1 • Hybrid Extraction Series",
-      title: "Motorized Industrial Roof Ventilators & Hybrid Extractors",
+      title: "SIMPOVENT® Motorized Industrial Roof Ventilators",
       subtitle: "Combines 100% natural wind-driven suction with high-torque electric motor boost for severe heat spikes and dense factory smoke extraction.",
       bullets: [
         "Guaranteed High-Capacity CFM Extraction Even on Dead Calm Days",
@@ -26,7 +26,7 @@ export const HeroSlider: React.FC = () => {
     {
       bgImage: "/images/products/hvls-industrial-fan-ceiling.jpg",
       badge: "SIMPOVENT® HVLS Series • PMSM Direct Drive",
-      title: "Industrial HVLS PMSM Ceiling Fans (Up to 24 Ft / 15,500 CMM)",
+      title: "SIMPOVENT® Industrial HVLS PMSM Ceiling Fans (Up to 24 Ft / 15,500 CMM)",
       subtitle: "Permanent Magnet Synchronous Motor direct-drive technology — zero gearbox, zero oil leak risk, 20X motor life, and whisper-quiet cooling for expansive factory sheds.",
       bullets: [
         "Massive Air Volume up to 15,500 CMM (547,000 CFM)",
@@ -37,9 +37,9 @@ export const HeroSlider: React.FC = () => {
       ctaPrimaryUrl: "/hvls-fan"
     },
     {
-      bgImage: "/images/products/real-cone-exhaust-fan.jpg",
+      bgImage: "/images/products/roof-exhaust-fan-simpovent.jpg",
       badge: "High-Volume Power Exhaust Series",
-      title: "Heavy Duty Industrial Wall & Roof Cone Exhaust Fans",
+      title: "SIMPOVENT® Heavy Duty Industrial Roof & Wall Exhaust Fans",
       subtitle: "Engineered for intense welding smoke, chemical fumes, and process heat evacuation across expansive manufacturing facilities.",
       bullets: [
         "Dynamically Balanced High-CFM Impeller Blades (Up to 28,000 CFM)",
@@ -50,9 +50,9 @@ export const HeroSlider: React.FC = () => {
       ctaPrimaryUrl: "/contact"
     },
     {
-      bgImage: "/images/factory/factory-floor-presses.jpg",
-      badge: "ISO 9001:2015 Certified • Simpovent®",
-      title: "Zero-Power Industrial Wind Turbo Ventilators",
+      bgImage: "/images/products/WhatsApp Image 2026-09-09 at 4.28.51 PM.jpeg",
+      badge: "ISO 9001:2015 Certified • SIMPOVENT®",
+      title: "SIMPOVENT® Zero-Power Industrial Wind Turbo Ventilators",
       subtitle: "Continuously exhausts trapped factory heat, smoke, and fumes using 100% natural wind energy — 0 Watts electricity.",
       bullets: [
         "Zero Electricity Bills & Zero Operating Cost for Lifetime",
@@ -63,9 +63,9 @@ export const HeroSlider: React.FC = () => {
       ctaPrimaryUrl: "/calculator"
     },
     {
-      bgImage: "/images/slides/slide-3.jpg",
+      bgImage: "/images/products/WhatsApp Image 2026-09-09 at 4.31.55 PM.jpeg",
       badge: "Natural Air Flow Systems",
-      title: "Industrial Roof Air Extractors & Matching FRP Base Plates",
+      title: "SIMPOVENT® Industrial Roof Air Extractors & Matching FRP Base Plates",
       subtitle: "Custom fabricated UV-stabilized virgin FRP base plates designed for exact profile matching with Tata Bluescope, JSW, and Kirby metal roofing.",
       bullets: [
         "100% Monsoon Leakproof & Capillary Water Seepage Resistant",
@@ -124,7 +124,7 @@ export const HeroSlider: React.FC = () => {
         <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-950/70 backdrop-blur-md border border-white/20 text-white shadow-lg">
           <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
           <span className="text-[11px] font-black tracking-wider uppercase text-emerald-200">
-            Shreeji Simpovent®
+            SIMPOVENT® • ISO 9001:2015
           </span>
         </div>
       </div>

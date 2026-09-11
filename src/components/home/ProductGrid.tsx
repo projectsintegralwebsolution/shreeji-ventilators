@@ -73,7 +73,7 @@ export const ProductGrid: React.FC = () => {
                     src={product.image}
                     alt={product.name}
                     aspectRatio="aspect-[16/10]"
-                    watermarkText="Simpovent®"
+                    watermarkText="SIMPOVENT®"
                     watermarkPosition="bottom-right"
                   />
                 </Link>

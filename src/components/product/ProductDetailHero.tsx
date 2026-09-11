@@ -87,7 +87,7 @@ export const ProductDetailHero: React.FC<ProductDetailHeroProps> = ({ product })
                   src={product.image}
                   alt={product.name}
                   aspectRatio="aspect-[4/3]"
-                  watermarkText="Shreeji Simpovent® • ISO 9001:2015"
+                  watermarkText="SIMPOVENT® • ISO 9001:2015"
                   watermarkPosition="bottom-right"
                   priority={true}
                 />

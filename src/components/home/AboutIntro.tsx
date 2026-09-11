@@ -17,7 +17,7 @@ export const AboutIntro: React.FC = () => {
                 src="/images/office/reception-lobby.jpg"
                 alt="Shreeji Sales Corporation Corporate Office Reception"
                 aspectRatio="aspect-[4/3]"
-                watermarkText="Shreeji Simpovent® • Vasai Plant"
+                watermarkText="Shreeji Sales Corporation • Vasai Plant"
                 watermarkPosition="bottom-right"
               />
             </div>

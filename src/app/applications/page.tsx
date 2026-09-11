@@ -7,7 +7,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = constructMetadata({
   title: "Industrial Applications - Wind Driven Ventilation Solutions",
-  description: "Discover how Shreeji Simpovent Turbo Ventilators solve heat, smoke, and humidity problems in foundries, boiler sheds, chemical plants, and logistics warehouses.",
+  description: "Discover how SIMPOVENT® Turbo Ventilators (manufactured by Shreeji Sales Corporation) solve heat, smoke, and humidity problems in foundries, boiler sheds, chemical plants, and logistics warehouses.",
   canonicalUrl: "/applications",
   keywords: [
     "Boiler Room Ventilation",

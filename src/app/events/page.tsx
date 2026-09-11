@@ -194,7 +194,7 @@ export default function EventsPage() {
                 </div>
 
                 <div className="p-4 bg-slate-50 border-t border-slate-100 flex items-center justify-between">
-                  <span className="text-[11px] font-bold text-slate-500">Shreeji Simpovent®</span>
+                  <span className="text-[11px] font-bold text-slate-500">SIMPOVENT®</span>
                   <QuoteButton productName={`Inquiry for Model Displayed at: ${evt.title}`} className="px-3.5 py-1.5 text-xs font-bold" variant="primary">
                     Get Quotation
                   </QuoteButton>

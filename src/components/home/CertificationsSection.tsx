@@ -16,7 +16,7 @@ export const CertificationsSection: React.FC = () => {
                 AN ISO 9001:2015 Certified Manufacturing Facility
               </h2>
               <p className="text-xs sm:text-sm text-emerald-100/90 leading-relaxed max-w-2xl">
-                Every Shreeji Simpovent Turbo Ventilator is manufactured under strict ISO quality control protocols. Each unit undergoes dynamic balancing tests, bearing friction assessment, and simulated monsoon water-resistance verification.
+                Every SIMPOVENT® Turbo Ventilator is manufactured by Shreeji Sales Corporation under strict ISO quality control protocols. Each unit undergoes dynamic balancing tests, bearing friction assessment, and simulated monsoon water-resistance verification.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-3 text-xs">

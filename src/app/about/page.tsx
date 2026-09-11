@@ -114,7 +114,7 @@ export default function AboutPage() {
                 src="/images/office/reception-lobby.jpg"
                 alt="Shreeji Sales Corporation Corporate Reception"
                 aspectRatio="aspect-[4/3]"
-                watermarkText="Shreeji Simpovent® • Corporate Office"
+                watermarkText="Shreeji Sales Corporation • Corporate Office"
                 watermarkPosition="bottom-right"
               />
             </div>
